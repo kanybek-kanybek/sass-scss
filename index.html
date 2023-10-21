@@ -1,81 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sass/scss</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="wrap">
-        <header class="header">
-           <div class="container">
-            <div class="header__nav">
-                <div class="header__nav-info">
-                    <img src="./img/Rectangle 1.png" alt="">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>sass/scss</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish:ital,wght@0,500;0,600;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="wrap">
+            <header class="header">
+                <div class="container">
+                    <div class="header__nav">
+                        <div class="header__nav-info">
+                            <img src="./img/Rectangle 1.png" alt="" />
+                        </div>
+                        <div class="header__nav__menu">
+                            <button class="header__nav-bt">Главная</button>
+                            <div class="header__nav-a">
+                                <a href="#">Введение</a>
+                                <a href="#">О фонде</a>
+                                <a href="#">Преимущества</a>
+                                <a href="#">Стратегия</a>
+                                <a href="#">Условия</a>
+                                <a href="#">Основатели</a>
+                            </div>
+                        </div>
+                        <div class="header__nav__language">
+                            <h1 class="header__nav__language-ru">RU</h1>
+                            <h1 class="header__nav__language-en">EN</h1>
+                        </div>
+                    </div>
                 </div>
-                <div class="header__nav__menu">
-                    <button class="header__nav-bt">Главная</button>
-                    <div class="header__nav-a">
-                    <a href="#">Введение</a>
-                    <a href="#">О фонде</a>
-                    <a href="#">Преимущества</a>
-                    <a href="#">Стратегия</a>
-                    <a href="#">Условия</a>
-                    <a href="#">Основатели</a>
-                </div>
-                </div>
-                <div class="header__nav__language">
-                    <h1 class="header__nav__language-ru">RU</h1>
-                    <h1 class="header__nav__language-en">EN</h1>
+            </header>
+            <div class="hero">
+                <div class="container">
+                    <div class="fond">
+                        <div class="fond__title">
+                            <h1>ФОНД ПЕРВИЧНЫХ <span>РАЗМЕЩЕНИЙ</span></h1>
+                        </div>
+                        <div class="fond__info">
+                            <p>
+                                Фонд первичных размещений был создан в начале
+                                2021 <br />
+                                года командой специалистов инвестиционной
+                                компании <br />
+                                «Royal Pure Gold».
+                            </p>
+                        </div>
+                        <div class="fond__btn">
+                            <button>Связаться с нами</button>
+                        </div>
+                        <div class="fond__img">
+                            <img src="./img/image.jpg" alt="" />
+                        </div>
+                    </div>
                 </div>
             </div>
-           </div>
-        </header>
-        <div class="hero">
-            <div class="container">
-                <div class="fond">
-                    <div class="fond__title">
-                        <h1>ФОНД ПЕРВИЧНЫХ <span>РАЗМЕЩЕНИЙ</span></h1>
+            <section id="intro">
+                <div class="container">
+                    <div class="introduction">
+                        <h1 class="intro-title">введение</h1>
+                        <div class="intro__info">
+                            <p>
+                                <span>2020 год принес много сюрпризов</span>:
+                                глобальная пандемия,<br />
+                                экономический спад, потеря миллионов рабочих
+                                мест и <br />
+                                пошатнувшиеся лидерские позиции Соединенных
+                                Штатов на <br />
+                                мировой арене. <br />
+                                <span>Для многих 2020 год был непростым</span>,
+                                но для фондового рынка он <br />
+                                оказался рекордным годом, особенно для рынка
+                                IPO, как по <br />
+                                количеству компаний вышедших на биржу, так и по
+                                объему <br />
+                                привлеченных инвестиций.
+                            </p>
+                            <button>Подробнее</button>
+                        </div>
                     </div>
-                    <div class="fond__info">
-                        <p>Фонд первичных размещений был создан в начале 2021 <br> года командой специалистов инвестиционной компании <br> «Royal Pure Gold».</p>
-                    </div>
-                    <div class="fond__btn">
-                        <button>Связаться с нами</button>
-                    </div>
-                    <div class="fond__img">
-                        <img src="./img/image.jpg" alt="">
+                    <div class="introduction">
+                        <h1 class="intro-title">О фонде</h1>
+                        <div class="intro__info">
+                            <p>
+                                <span>Фонд первичных размещений</span> был
+                                создан в начале 2021 <br />
+                                года командой специалистов инвестиционной
+                                компании «Royal Pure <br />
+                                Gold». Задача данного фонда заключается в том,
+                                чтобы сделать <br />
+                                инвестирование в IPO и другие инструменты
+                                максимально <br />
+                                простым, доступным для всех граждан, прибыльным,
+                                а также <br />
+                                безопасным. <br />
+                                <span
+                                    >Этот фонд будет состоят из акций более чем
+                                    50 компаний</span
+                                >
+                                из <br />
+                                разных областей — от фармацевтики до электронной
+                                коммерции <br />
+                                и ПО — которые вышли на IPO. У специалистов
+                                «Royal Pure Gold» <br />
+                                большой опыт экспертизы и участия в первичных
+                                размещениях на <br />
+                                глобальном рынке. Компания занимается
+                                инвестированием в IPO <br />
+                                с 2018 года, и с тех пор поучаствовала в более
+                                100 различных <br />
+                                первичных размещениях, средняя доходность по
+                                которым <br />
+                                составила — более 50% годовых.
+                            </p>
+                            <button>Подробнее</button>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <section class="advantage">
+                <div class="container">
+                    <h1 class="advantage-title">
+                        Основные <span>преимущества</span> фонда
+                    </h1>
+                    <ul class="advantage__list">
+                        <li class="advantage__list__item">
+                            <p class="advantage__list__item-number">01</p>
+
+                            <h4 class="advantage__list__item-title">
+                                Минимальный порог <br />
+                                для входа
+                            </h4>
+
+                            <p class="advantage__list__item-info">
+                                Цена размещения одной акции – 100$
+                            </p>
+                        </li>
+
+                        <li class="advantage__list__item">
+                            <p class="advantage__list__item-number">02</p>
+
+                            <h4 class="advantage__list__item-title">
+                                Получение аллокации <br />
+                                в каждом IPO
+                            </h4>
+
+                            <p class="advantage__list__item-info">
+                                По верхней границе относительно поданной <br />
+                                заявки
+                            </p>
+                        </li>
+
+                        <li class="advantage__list__item">
+                            <p class="advantage__list__item-number">03</p>
+
+                            <h4 class="advantage__list__item-title">
+                                Инвестируйте на <br />
+                                автопилоте
+                            </h4>
+
+                            <p class="advantage__list__item-info">
+                                Отсутствие необходимости подавать <br />
+                                отдельную заявку на участие в каждом <br />
+                                новом IPO. Это делают за Вас специалисты <br />
+                                нашего Фонда
+                            </p>
+                        </li>
+
+                        <li class="advantage__list__item">
+                            <p class="advantage__list__item-number">04</p>
+
+                            <h4 class="advantage__list__item-title">
+                                Безопасность <br />
+                                вложений
+                            </h4>
+
+                            <p class="advantage__list__item-info">
+                                Цена размещения одной акции – 100$
+                            </p>
+                        </li>
+
+                        <li class="advantage__list__item">
+                            <p class="advantage__list__item-number">05</p>
+
+                            <h4 class="advantage__list__item-title">
+                                Экономия времени
+                            </h4>
+
+                            <p class="advantage__list__item-info">
+                                Фонд вкладывает деньги только в <br />
+                                качественные IPO, прошедшие тщательный <br />
+                                анализ и отбор. Вам не нужно тратить свое <br />
+                                время и вникать в сложные рыночные <br />
+                                механизмы
+                            </p>
+                        </li>
+
+                        <li class="advantage__list__item">
+                            <p class="advantage__list__item-number">06</p>
+
+                            <h4 class="advantage__list__item-title">
+                                Доступность фонда <br />
+                                на бирже
+                            </h4>
+
+                            <p class="advantage__list__item-info">
+                                Акции фонда торгуются на бирже и любой <br />
+                                желающий инвестор может самостоятельно <br />
+                                их приобрести.
+                            </p>
+                        </li>
+
+                        <li class="advantage__list__item">
+                            <p class="advantage__list__item-number">07</p>
+
+                            <h4 class="advantage__list__item-title">
+                                Возможность <br />
+                                досрочно вывести
+                            </h4>
+
+                            <p class="advantage__list__item-info">
+                                Без большой потери дохода путем продажи <br />
+                                акций на вторичном рынке
+                            </p>
+                        </li>
+
+                        <li class="advantage__list__item">
+                            <p class="advantage__list__item-number">08</p>
+
+                            <h4 class="advantage__list__item-title">
+                                Создание пассивного <br />
+                                дохода.
+                            </h4>
+
+                            <p class="advantage__list__item-info">
+                                Фонд периодически выплачивает своим <br />
+                                инвесторам дивиденды
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </div>
-        <section id="intro">
-           <div class="container">
-            <div class="introduction">
-                <div class="intro__title">  
-                    <h1>введение</h1>
-                </div>
-                <div class="intro__info">
-                    <p><span>2020 год принес много сюрпризов</span>: глобальная пандемия,<br> экономический спад, потеря миллионов рабочих мест и <br> пошатнувшиеся лидерские позиции Соединенных Штатов на <br> мировой арене. <br>
-                        <span>Для многих 2020 год был непростым</span>, но для фондового рынка он <br> оказался рекордным годом, особенно для рынка IPO, как по <br> количеству компаний вышедших на биржу, так и по объему <br>
-                         привлеченных инвестиций.</p>
-                         <button>Подробнее</button>
-                </div>
-            </div>
-            <div class="introduction">
-                <div class="intro__title">  
-                    <h1>О фонде</h1>
-                </div>
-                <div class="intro__info">
-                    <p><span>Фонд первичных размещений</span> был создан в начале 2021 <br> года командой специалистов инвестиционной компании «Royal Pure <br> Gold». Задача данного фонда заключается в том, чтобы сделать <br> инвестирование в IPO и другие инструменты максимально <br> простым, доступным для всех граждан, прибыльным, а также <br> безопасным. <br>
-                        <span>Этот фонд будет состоят из акций более чем 50 компаний</span> из <br> разных областей — от фармацевтики до электронной коммерции <br> и ПО — которые вышли на IPO. У специалистов «Royal Pure Gold» <br> большой опыт экспертизы и участия в первичных размещениях на <br> глобальном рынке. Компания занимается инвестированием в IPO <br> с 2018 года, и с тех пор поучаствовала в более 100 различных <br> первичных размещениях, средняя доходность по которым <br> составила — более 50% годовых.</p>
-                         <button>Подробнее</button>
-                </div>
-            </div>
-           </div>
-        </section>
-    </div>
-</body>
+    </body>
 </html>
