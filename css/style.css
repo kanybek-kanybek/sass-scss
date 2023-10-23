@@ -213,7 +213,89 @@ body {
     font-weight: 400;
     margin-bottom: 30px;
 }
-
+.investment__content-title {
+    color: var(--main-color, #0d0d0d);
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+.investment__content-title span {
+    color: var(--contrast-color, #006f62);
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.investment__content-btn {
+    border-radius: 60px;
+    border: 1px solid var(--contrast-color, #006f62);
+    display: flex;
+    height: 45px;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 3px;
+    color: var(--main-color, #0d0d0d);
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    background: #fff;
+}
+.investment__content__info {
+    display: flex;
+    justify-content: flex-end;
+    gap: 150px;
+    margin-bottom: 60px;
+}
+.investment__content__info-strategy {
+    color: var(--contrast-color, #006f62);
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+.investment__content__info-formation {
+    color: var(--main-color, #0d0d0d);
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    width: 480px;
+    margin: 20px 0;
+}
+.investment__content__info-btn {
+    display: flex;
+    height: 45px;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 3px;
+    border-radius: 60px;
+    border: 1px solid var(--contrast-color, #006f62);
+    color: var(--main-color, #0d0d0d);
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    background: #fff;
+    margin-top: 33.5px;
+}
+.investment__content__img {
+    width: 100%;
+}
 @media screen and( max-width:1440px) {
     .fond__img {
         background: url(/img/image.png);
