@@ -300,6 +300,9 @@ body {
     .fond__img {
         background: url(/img/image.png);
     }
+    .investment__content__img {
+        background: url(/img/image\\(2\).png);
+    }
 }
 @media screen and( max-width:1024px) {
     .advantage__list {
