@@ -296,6 +296,62 @@ body {
 .investment__content__img {
     width: 100%;
 }
+.condition {
+    margin: 100px 100px;
+}
+.condition__content__info {
+    margin: auto 0;
+    margin-right: auto;
+}
+.condition__content-title span {
+    color: var(--contrast-color, #006f62);
+    font-family: Helvetica;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.condition__content-title {
+    color: var(--main-color, #0d0d0d);
+    font-family: Helvetica;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.condition__content-text {
+    color: var(--main-color, #0d0d0d);
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 20px 0;
+}
+.condition__content-text span {
+    color: var(--contrast-color, #006f62);
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.condition__content-btn {
+    display: flex;
+    height: 45px;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 3px;
+    border-radius: 60px;
+    border: 1px solid var(--contrast-color, #006f62);
+    background: #fff;
+}
+.condition__content {
+    display: flex;
+}
 @media screen and( max-width:1440px) {
     .fond__img {
         background: url(/img/image.png);
